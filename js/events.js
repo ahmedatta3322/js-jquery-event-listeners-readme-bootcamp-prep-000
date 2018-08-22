@@ -3,6 +3,7 @@ function getIt(){
   return $('p').on('click' , window.alert('hey'))
 }
 function frameIt(){
+  img1 = $('img')
   return $('img').on('load' , img.css = "tasty")
 } 
 $(document).ready(function(){
