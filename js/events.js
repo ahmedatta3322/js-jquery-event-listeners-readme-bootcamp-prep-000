@@ -1,6 +1,6 @@
 //define functions here
 function getIt(){
-  $('p').on('click' , window.alert('hey'))
+  return $('p').on('click' , window.alert('hey'))
 }
 function frameIt(){
   
